@@ -61,7 +61,7 @@ libwfits_efl_la_CPPFLAGS =		\
 
 AM_CXXFLAGS =				\
 	-Wno-strict-aliasing		\
-	-Werror -Wall			\
+	-Wall			\
 	-Wno-unused-variable		\
 	-Wno-unknown-pragmas		\
 	-Wno-parentheses		\
