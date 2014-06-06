@@ -16,7 +16,7 @@
 #
 
 Name:           wayland-fits-master
-Version:	0.2.1
+Version:	0.2.2
 Release:	0
 License:	GPL-2.0+
 Summary:        Wayland Test Suite
