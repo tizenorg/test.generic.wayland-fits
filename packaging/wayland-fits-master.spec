@@ -1,4 +1,5 @@
-#
+%bcond_with wayland
+
 # spec file for package
 #
 # Copyright (c) 2014 SUSE LINUX Products GmbH, Nuernberg, Germany.
@@ -38,6 +39,11 @@ BuildRequires:  pkgconfig(xkbcommon)
 BuildRequires:  unzip
 BuildRequires:  pkgconfig(evas-wayland-egl)
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
+
+%if !%{with wayland}
+ExclusiveArch:
+%endif
+
 
 %description
 Graphical Test Suite for wayland
